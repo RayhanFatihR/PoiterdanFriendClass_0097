@@ -15,4 +15,9 @@ public:
         cout << "Masukan Lebar: ";
         cin >> lebar;
     }
+
+    int luasPp(int a, int b)
+    {
+        return a * b;
+    }
 }
