@@ -20,4 +20,19 @@ public:
     {
         return a * b;
     }
+
+    Lingkaran ol;
+};
+
+class Lingkaran
+{
+public:
+    int jariJari;
+
+    void input()
+    {
+        cout << "Masukan Jari-jari: ";
+        cin >> jariJari;
+    }
+
 }
